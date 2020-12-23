@@ -1,16 +1,29 @@
-function setup (dss) {
-  // get all bands for display and analysis
-  setInputComponents([dss.B02,dss.B03,dss.B04,dss.B05,dss.B08,dss.B12]);
-  // return as RGB
-  setOutputComponentCount(3);
+ //VERSION=3 (auto-converted from 1)
+
+function setup() {
+  return {
+    input: [{
+      bands: [
+          "B02",
+          "B03",
+          "B04",
+          "B05",
+          "B08",
+          "B12"
+      ]
+    }],
+    output: { bands: 3 },
+    mosaicking: "ORBIT"
+  }
 }
+
 
 function stretch(val, min, max) {return (val - min) / (max - min);}
 
 function filterScenes (scenes, inputMetadata) {  
 return scenes.filter(function (scene) {
 // set dates for pre-and-post fire analysis
-var allowedDates = ["2017-05-15","2017-06-24"]; // Knysna fires
+var allowedDates = ["2020-08-13","2020-10-07"]; // Knysna fires
 // format scene date timestamp to match allowed dates 
 var sceneDateStr = dateformat(scene.date);
 if (allowedDates.indexOf(sceneDateStr)!= -1) return true;
@@ -56,4 +69,3 @@ function evaluatePixel(samples,scenes) {
   burnModerate : burnSevere)
   );
   
-}
