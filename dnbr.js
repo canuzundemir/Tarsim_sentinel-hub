@@ -1,10 +1,10 @@
- //VERSION=3 (auto-converted from 1)
+//VERSION=3 (auto-converted from 1)
 
 function setup() {
   return {
     input: [{
       bands: [
-          "B02",
+                  "B02",
           "B03",
           "B04",
           "B05",
@@ -69,3 +69,4 @@ function evaluatePixel(samples,scenes) {
   burnModerate : burnSevere)
   );
   
+}
