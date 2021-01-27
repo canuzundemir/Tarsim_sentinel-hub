@@ -1,7 +1,4 @@
 # TARSIM SENTINEL-HUB API INTEGRATION
-OGC API
-/n WMS-WFS-WMTS-FIS
-Evalscript-v3 codes
-Custom-scripts
+
 
 
