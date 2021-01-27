@@ -58,3 +58,4 @@ function evaluatePixel(samples,scenes) {
  // return [dout > 0.05 ?  1 : 0]
  // ************************************
 }
+//Maryam Salehi
