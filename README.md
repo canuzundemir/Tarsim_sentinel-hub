@@ -1,2 +1,2 @@
-# tarsim-sentinel-hub
+# TARSIM SENTINEL-HUB API INTEGRATION
 WMS-WFS-WMTS-FIS
