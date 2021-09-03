@@ -1,8 +1,8 @@
 //VERSION=3
 // Date Definition 
-//var beforeflood_date = "2019-03-11"; var duringflood_date = "2019-03-23"; // Flood in Aghghala, Iran     
+     
 var beforeflood_date = "2019-01-06"; var duringflood_date = "2019-01-14"; // Flood in Uruguaiana, Rio Grande do Sul, Brazil       
-//var beforeflood_date = "2020-01-04"; var duringflood_date = "2020-01-13"; // Flood in southern Iran
+
  
 // Selection of polarization 
 function setup() {
@@ -58,4 +58,4 @@ function evaluatePixel(samples,scenes) {
  // return [dout > 0.05 ?  1 : 0]
  // ************************************
 }
-//Maryam Salehi
+
