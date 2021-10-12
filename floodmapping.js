@@ -1,7 +1,7 @@
 //VERSION=3
 // Date Definition 
      
-var beforeflood_date = "2019-01-06"; var duringflood_date = "2019-01-14"; // Flood in Uruguaiana, Rio Grande do Sul, Brazil       
+var beforeflood_date = "2019-01-06"; var duringflood_date = "2019-01-14";    
 
  
 // Selection of polarization 
